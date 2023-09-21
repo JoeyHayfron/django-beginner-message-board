@@ -1,0 +1,6 @@
+<h1>List of Posts in Message Board App</h1>
+<ul>
+  {% for post in all_posts_list %}
+  <li>{{ post.text }}</li>
+  {% endfor %}
+</ul>
